@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2019-11-10T07:17:34.599Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="GNyE5auFhZkFgZIcmkrW" version="12.2.3" type="github" pages="1"><diagram id="QmE9LT3bl2_Xa9Ef4wVj" name="第 1 页">5Vhdb5swFP01fuwEmA/zCIVsL5UqVdrWp8oBD5BIHDlOk+zX7xpM+MyaRWupFClSrq99L9fnHBsbhO9Xh6+CbvIHnrISWUZ6QDhClmXaBoE/5Tlqj287tScTRap9reOp+M2009DeXZGybW+g5LyUxabvTPh6zRLZ81Eh+L4/7Bcv+0/d0IyNHE8JLcfeH0Uqc+3Fltd2fGNFljePNl2/7lnRZrSeyjanKd93XDhG+F5wLmtrdbhnpYKvAaaOW5zpPVUm2FpeEsCfX5L8brlkVrSMXsSD+/1Q3Oksr7Tc6Rmj2EGhgYiJYoICjIhTGQsUeih2UWgiYinDr4aBQSIUxMhyS6giXAqwMmVVY2wUxiohJAkgj498gvxF5QFDY7iVxwZuwXfrlKmCTUixzwvJnjY0Ub17UBj4crkqdbcunQnJDmcxMU9Ig0gZXzEpjjBEB3iaGy3PO9NohLfvsN0wmHeIdrWPaoFlp9wtBWBoFv6BETzBCIAcVwACbguF25iRIZKgto0yAQtalqzkmaArAG3DRAGFMjHse2w75gDenB14ZwJ40G+osB8rV1PhVoaHwmCKk/Ga8KqEdkUp5DGWVCb5p1sGvuHOTIb7NzIICu2KDDAi9QMO/EjRoDgw1U95fBSQKgqckeqC2LDPXGBXZHjABCJuG/XZCCHG3KvDGxMyBImt00C9cqGVlHS7LZI+LuxQyJ9gG18c3Xru9ERq6kbTODaNNRTfCVLN525fG1a1mri6OJaO3u4DBmACfCcS9vYrUlKRMfnW/jFmtMOYM0FY4xOspLJ47Zc7xaJ+wiMvYCKtQjwyYL6elx7WPRY0kYd+ASep4UGieuKjRJWKTvO8Xlj+zQoLXyisM1vFOwtLy+O0o7RHJONKpWFzlMr5WK01Bdyg2JwLxebOKrahQsi1WhvJlny01CZuVjciNffSfc2aU2umPVCIOzw7Xao1Ew8yeUPVvrfWrLHWbvm07PoakNlOy+b4Fl/f9BQJAGfY+ShS3ShDg0rYAoZX/QBP4P7Z4HaguJnhtm92s23W/tu7LZ5zt8XDPdLxrj1FkuFqt/7XbgvN9nNsPbz9rI3jPw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-10T08:06:27.006Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="FOcyJrznWWsTIP_9hMsq" version="12.2.3" type="github" pages="1">
+  <diagram id="QmE9LT3bl2_Xa9Ef4wVj" name="第 1 页">
+    <mxGraphModel dx="1408" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1327" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-1" value="封装请求数据&lt;br&gt;放入队列" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-1010" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-3" value="接受请求" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-1110" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-5" value="从队列取出请求&lt;br&gt;组成batch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-906" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oY_ch-bbe2DbD_rM6Vxi-1" target="oY_ch-bbe2DbD_rM6Vxi-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="-780" as="sourcePoint"/>
+            <mxPoint x="50" y="-830" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oY_ch-bbe2DbD_rM6Vxi-3" target="oY_ch-bbe2DbD_rM6Vxi-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-1000" as="sourcePoint"/>
+            <mxPoint x="310" y="-1050" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oY_ch-bbe2DbD_rM6Vxi-5" target="oY_ch-bbe2DbD_rM6Vxi-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-800" as="sourcePoint"/>
+            <mxPoint x="130" y="-800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-12" value="从负载均衡器中获取atlas处理器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-800" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-13" value="batch进入到atlas接口处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-693" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oY_ch-bbe2DbD_rM6Vxi-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oY_ch-bbe2DbD_rM6Vxi-12" target="oY_ch-bbe2DbD_rM6Vxi-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="-678" as="sourcePoint"/>
+            <mxPoint x="380" y="-728" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
