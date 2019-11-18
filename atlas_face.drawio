@@ -1,11 +1,17 @@
-<mxfile host="www.draw.io" modified="2019-11-18T06:02:46.625Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="SOwVUMv8vhBL7E5ita_x" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-18T06:44:45.604Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="Djj1OHd8XsyNABdvr6-c" version="12.2.3" type="github" pages="1">
   <diagram id="QmE9LT3bl2_Xa9Ef4wVj" name="第 1 页">
     <mxGraphModel dx="1408" dy="3065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1327" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="e0Hb0du3VfullZevtZFt-220" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-1797" width="1090" height="1117" as="geometry"/>
+        <mxCell id="e0Hb0du3VfullZevtZFt-222" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="-1804" width="1090" height="1124" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0Hb0du3VfullZevtZFt-220" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;dashed=1;" vertex="1" parent="e0Hb0du3VfullZevtZFt-222">
+          <mxGeometry width="1090" height="1124" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0Hb0du3VfullZevtZFt-221" value="atlas芯片处理器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="e0Hb0du3VfullZevtZFt-222">
+          <mxGeometry x="980" y="10.062667860340198" width="100" height="20.125335720680397" as="geometry"/>
         </mxCell>
         <mxCell id="e0Hb0du3VfullZevtZFt-56" value="根据配置的芯片数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="-1990" width="120" height="60" as="geometry"/>
@@ -650,8 +656,23 @@
             <mxPoint x="-10" y="-10" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e0Hb0du3VfullZevtZFt-221" value="atlas芯片处理器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="-1787" width="100" height="20" as="geometry"/>
+        <mxCell id="e0Hb0du3VfullZevtZFt-224" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e0Hb0du3VfullZevtZFt-95" target="e0Hb0du3VfullZevtZFt-139">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="-1110" as="sourcePoint"/>
+            <mxPoint x="550" y="-1160" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="390" y="-1050"/>
+              <mxPoint x="740" y="-1050"/>
+              <mxPoint x="740" y="-1100"/>
+              <mxPoint x="840" y="-1100"/>
+              <mxPoint x="840" y="-1145"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0Hb0du3VfullZevtZFt-225" value="发送请求" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="e0Hb0du3VfullZevtZFt-224">
+          <mxGeometry x="-0.8414" relative="1" as="geometry">
+            <mxPoint y="47" as="offset"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
