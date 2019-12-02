@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-29T03:07:37.658Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="nRJTDnGfuycQdHPmO2yw" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-02T12:34:44.465Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="OTFa1Qm5FGBPn9YQAdOk" version="12.3.3" type="github" pages="1">
   <diagram id="QmE9LT3bl2_Xa9Ef4wVj" name="第 1 页">
     <mxGraphModel dx="1408" dy="3114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1327" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,7 +781,7 @@
         <mxCell id="e0Hb0du3VfullZevtZFt-250" value="记录上次响应时间&lt;br&gt;nLastResponseTime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="e0Hb0du3VfullZevtZFt-265" vertex="1">
           <mxGeometry x="140" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="e0Hb0du3VfullZevtZFt-252" value="nRequestCount != nResponseCount&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;(nLastResponseTime - now() &amp;gt; timeout&lt;br&gt;&lt;/span&gt;|| &lt;br&gt;nRequestElapse &amp;gt; timeout)&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="e0Hb0du3VfullZevtZFt-265" vertex="1">
+        <mxCell id="e0Hb0du3VfullZevtZFt-252" value="nRequestCount != nResponseCount&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;(&lt;/span&gt;now()&amp;nbsp;-&amp;nbsp;&lt;span style=&quot;white-space: normal&quot;&gt;nLastResponseTime &amp;gt; timeout&lt;br&gt;&lt;/span&gt;|| &lt;br&gt;nRequestElapse &amp;gt; timeout)&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="e0Hb0du3VfullZevtZFt-265" vertex="1">
           <mxGeometry x="20" y="115.5" width="220" height="83" as="geometry"/>
         </mxCell>
         <mxCell id="e0Hb0du3VfullZevtZFt-253" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="e0Hb0du3VfullZevtZFt-265" source="e0Hb0du3VfullZevtZFt-252" target="e0Hb0du3VfullZevtZFt-257" edge="1">
