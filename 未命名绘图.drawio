@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2020-04-22T14:37:27.319Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36" version="13.0.1" etag="pcAKpyEZ4n1qutQE04yk" type="github"><diagram id="j2u3woRVECMW_S8kAenI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-22T14:42:51.872Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36" etag="MuiTuTlrGB3Yd3t4A4I6" version="13.0.1" type="github">
+  <diagram id="j2u3woRVECMW_S8kAenI" name="第 1 页">
+    <mxGraphModel dx="1422" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-2" value="提取特征" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-3" value="分类" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-4" value="明文数据流" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-6" value="登陆动作" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-7" value="注册动作" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-8" value="修改密码" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLR63P_PVqyS-Vz9kV62-4" target="vLR63P_PVqyS-Vz9kV62-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLR63P_PVqyS-Vz9kV62-2" target="vLR63P_PVqyS-Vz9kV62-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLR63P_PVqyS-Vz9kV62-3" target="vLR63P_PVqyS-Vz9kV62-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="410" as="sourcePoint" />
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLR63P_PVqyS-Vz9kV62-3" target="vLR63P_PVqyS-Vz9kV62-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="420" as="sourcePoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLR63P_PVqyS-Vz9kV62-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vLR63P_PVqyS-Vz9kV62-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
